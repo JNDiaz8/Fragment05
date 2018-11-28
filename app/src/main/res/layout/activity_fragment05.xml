@@ -6,17 +6,18 @@
     android:background="#d9e1a5">
 
     <Button
-        android:id="@+id/boton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="llamada"
-        android:text="Mostrar dialogo"/>
+        android:onClick="mostrarDialogo"
+        android:text="MOSTRAR DIALOGO" />
 
-    <RelativeLayout
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/contenedor">
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/contenedor"></FrameLayout>
 
-    </RelativeLayout>
 
 </LinearLayout>
+
